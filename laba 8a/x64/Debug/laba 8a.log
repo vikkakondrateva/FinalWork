@@ -1,0 +1,3 @@
+﻿  laba 8a.cpp
+F:\laba 8a\laba 8a.cpp(32,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba 8a.vcxproj -> F:\laba 8a\x64\Debug\laba 8a.exe
