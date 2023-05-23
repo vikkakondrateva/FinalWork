@@ -28,9 +28,9 @@ int main()
 void inputArray(int* array, int row, int col) // row-строка, col-столбец
 {
     srand(time(NULL));
-    for (int i = 0; i < row; i++)
+    for (int il = 0; il < row; il++)
     {
-        for (int i = 0; i < col; i++)
+        for (int il = 0; il < col; il++)
         {
             do
             {
@@ -44,9 +44,9 @@ void inputArray(int* array, int row, int col) // row-строка, col-стол�
 
 void outputArray(int* array, int row, int col)
 {
-    for (int i = 0; i < row; i++)
+    for (int il = 0; il < row; il++)
     {
-        for (int i = 0; i < col; i++)
+        for (int il = 0; il < col; il++)
         {
             printf("%8d ", *array);
             array++;
@@ -63,9 +63,9 @@ int processArray(int* array, int row, int col)
         minus = 1;
 
 
-    for (int i = 0; i < row; i++)
+    for (int il = 0; il < row; il++)
     {
-        for (int i = 0; i < col; i++)
+        for (int il = 0; il < col; il++)
         {
             if ((minus == 0) && (*array < 0))
             {
